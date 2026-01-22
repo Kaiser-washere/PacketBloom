@@ -7,10 +7,6 @@ PacketBloom captures, analyzes, and visualizes network flows with a unique ASCII
 
 <hr/>
 
-<h2>🌸 ASCII Identity</h2>
-
-<p align="center">PacketBloom’s signature banner:</p>
-
 <pre>
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
@@ -50,9 +46,9 @@ cd packetbloom
 g++ -O2 -shared -fPIC $(python3 -m pybind11 --includes) backend/packetbloom_backend.cpp -lpcap -o backend$(python3-config --extension-suffix)
 ```
 <h2>🚀 Usage</h2>
-```
+
 sudo python3 core.py
-```
+
 ```MENU
 ╔══════════════════════════════════════════════╗
 ║ [1] Analyze PCAP                            ║
