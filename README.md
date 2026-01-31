@@ -27,7 +27,7 @@ PacketBloom captures, analyzes, and visualizes network flows with a clean, banne
 
 <hr/>
 
-<h2>✨ Features</h2>
+<h2> Features</h2>
 <ul>
   <li><b>Live Capture:</b> Capture packets directly from your network interface (default max: 1000).</li>
   <li><b>PCAP Export:</b> Save captured traffic into a <code>.pcap</code> file for Wireshark or other tools.</li>
@@ -38,14 +38,14 @@ PacketBloom captures, analyzes, and visualizes network flows with a clean, banne
 
 <hr/>
 
-<h2>📦 Installation</h2>
+<h2> Installation</h2>
 
 ```bash
 git clone https://github.com/PRxKaiser/PacketBloom.git
 cd packetbloom
 g++ -O2 -shared -fPIC $(python3 -m pybind11 --includes) backend/packetbloom_backend.cpp -lpcap -o backend$(python3-config --extension-suffix)
 ```
-<h2>🚀 Usage</h2>
+<h2> Usage</h2>
 
 sudo python3 core.py
 
